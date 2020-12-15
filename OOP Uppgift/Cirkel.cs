@@ -1,8 +1,10 @@
-﻿namespace OOP_Uppgift
+﻿using System;
+
+namespace OOP_Uppgift
 {
     class Cirkel
     {
-        public double radie;
+        public double radie { get; set; }
         public Cirkel(double r)
         {
             radie = r;
@@ -10,12 +12,14 @@
 
         public double Area()
         {
-            return 0;
+            double area = Math.Pow(radie, 2) * Math.PI;
+            return area;
         }
 
         public double Omkrets()
         {
-            return 0;
+            double omkrets = radie * 2 * Math.PI;
+            return omkrets;
         }
     }
 }

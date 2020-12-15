@@ -1,8 +1,10 @@
-﻿namespace OOP_Uppgift
+﻿using System;
+
+namespace OOP_Uppgift
 {
     class Cylinder : Cirkel
     {
-        public double höjd;
+        public double höjd { get; set; }
         public Cylinder(double radie, double h) : base(radie)
         {
             höjd = h;
