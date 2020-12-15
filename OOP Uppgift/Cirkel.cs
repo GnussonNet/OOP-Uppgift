@@ -12,14 +12,12 @@ namespace OOP_Uppgift
 
         public double Area()
         {
-            double area = Math.Pow(radie, 2) * Math.PI;
-            return area;
+            return Math.Pow(radie, 2) * Math.PI;
         }
 
         public double Omkrets()
         {
-            double omkrets = radie * 2 * Math.PI;
-            return omkrets;
+            return radie * 2 * Math.PI;
         }
     }
 }

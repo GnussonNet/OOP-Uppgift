@@ -12,12 +12,12 @@ namespace OOP_Uppgift
 
         public double Volym()
         {
-            return 0;
+            return Area() * höjd;
         }
 
         public double Yta()
         {
-            return 0;
+            return (Area()*2) + (Omkrets() * höjd);
         }
     }
 }
