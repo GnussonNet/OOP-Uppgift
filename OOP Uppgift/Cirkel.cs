@@ -10,7 +10,7 @@
 
         public void Area()
         {
-            double area = math.ou
+
         }
 
         public void Omkrets()
