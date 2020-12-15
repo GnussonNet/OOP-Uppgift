@@ -2,20 +2,20 @@
 {
     class Cylinder : Cirkel
     {
-        public int höjd;
-        public Cylinder(int radie, int h) : base(radie)
+        public double höjd;
+        public Cylinder(double radie, double h) : base(radie)
         {
             höjd = h;
         }
 
-        public void Volym()
+        public double Volym()
         {
-
+            return 0;
         }
 
-        public void Yta()
+        public double Yta()
         {
-
+            return 0;
         }
     }
 }

@@ -2,20 +2,20 @@
 {
     class Cirkel
     {
-        public int radie;
-        public Cirkel(int r)
+        public double radie;
+        public Cirkel(double r)
         {
             radie = r;
         }
 
-        public void Area()
+        public double Area()
         {
-
+            return 0;
         }
 
-        public void Omkrets()
+        public double Omkrets()
         {
-
+            return 0;
         }
     }
 }
